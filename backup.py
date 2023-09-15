@@ -3,7 +3,7 @@ import shutil
 from datetime import datetime as dt
 import openpyxl
 
-# crear una copia de seguridad a partir de una fecha
+# crea una copia de seguridad a partir de una fecha
 def copiar_archivos(desde_directorio, a_directorio, fecha):
     # Crear un archivo Excel
     workbook = openpyxl.Workbook()
